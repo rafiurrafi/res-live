@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <title>Resappy - Your favorite restaurant</title>
+  </head>
+  <body>
+    <div class="body-content">
+      <header class="header header--blog">
+        <nav class="main-nav sticky">
+          <div class="row">
+            <a href="#" class="logo">
+              <img src="img/logo icon.svg" alt="" />
+            </a>
+            <ul class="main-nav__left">
+              <li>
+                <a href="#">Sell</a>
+              </li>
+              <li><a href="#">Market</a></li>
+              <li><a href="#">Manage</a></li>
+              <li><a href="#">عربي</a></li>
+            </ul>
+            <ul class="main-nav__right">
+              <li>
+                <a href="#"><i class="fa fa-search u-color-primary"></i></a>
+              </li>
+              <li class="dropdown">
+                <a href="#">Learn</a>
+                <div class="dropdown__content">
+                  <a class="dropdown__link" href="#">Learn</a>
+                  <p class="dropdown__text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Impedit dicta
+                  </p>
+                  <div class="dropdown__menu">
+                    <nav class="dropdown__menu-left">
+                      <ul>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Help center</a></li>
+                        <li><a href="#">Videos</a></li>
+                        <li><a href="#">Customer Service</a></li>
+                        <li><a href="">Why Sell online</a></li>
+                        <li><a href="">Solutions by industry</a></li>
+                      </ul>
+                    </nav>
+                    <nav class="dropdown__menu-right">
+                      <ul>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Guide</a></li>
+                        <li><a href="#">Pods</a></li>
+                        <li><a href="#">Features</a></li>
+                        <li><a href="#">Demo</a></li>
+                      </ul>
+                    </nav>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <a href="#">Pricing</a>
+              </li>
+              <li>
+                <a href="#">Login</a>
+              </li>
+              <a
+                href="#"
+                class="btn btn--primary u-ml-sm"
+                onclick="openModal()"
+              >
+                Get started for free
+              </a>
+            </ul>
+            <!-- Mobile menu -->
+            <div class="mobile-menu">
+              <a href="javascript:void(0)" class="mobile-menu__link">
+                <i class="fa fa-search"></i>
+              </a>
+              <a
+                href="javascript:void(0)"
+                onclick="showMobileContent()"
+                class="mobile-menu__link"
+              >
+                <i class="fa fa-bars"></i>
+              </a>
+            </div>
+            <div class="mobile-content">
+              <ul class="mobile-content__nav">
+                <li>
+                  <a href="#">Sell</a>
+                </li>
+                <li><a href="#">Market</a></li>
+                <li><a href="#">Manage</a></li>
+
+                <li class="dropdown">
+                  <a href="#">Learn</a>
+                  <div class="dropdown__content">
+                    <div class="dropdown__context">
+                      <a class="dropdown__link" href="#">Learn</a>
+                      <p class="dropdown__text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Impedit dicta
+                      </p>
+                      <div class="dropdown__menu">
+                        <nav class="dropdown__menu-left">
+                          <ul>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Help center</a></li>
+                            <li><a href="#">Videos</a></li>
+                            <li><a href="#">Customer Service</a></li>
+                            <li><a href="">Why Sell online</a></li>
+                            <li><a href="">Solutions by industry</a></li>
+                          </ul>
+                        </nav>
+                        <nav class="dropdown__menu-right">
+                          <ul>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Guide</a></li>
+                            <li><a href="#">Pods</a></li>
+                            <li><a href="#">Features</a></li>
+                            <li><a href="#">Demo</a></li>
+                          </ul>
+                        </nav>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <a href="#">Pricing</a>
+                </li>
+                <li>
+                  <a href="#">Login</a>
+                </li>
+                <li><a href="#">عربي</a></li>
+                <a href="#" class="btn btn--primary" onclick="openModal()">
+                  Get started for free
+                </a>
+                <a
+                  href="javascript:void(0)"
+                  class="mobile-content__close"
+                  onclick="closeMobileContent()"
+                >
+                  &times;
+                </a>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <div class="row u-text-center">
+        <h2 class="heading-secondary heading-price">
+          Find the suitable plan to build your <span>Resappy</span>
+        </h2>
+      </div>
+      <main class="section-price-main">
+        <section class="section-price-card">
+          <div class="row">
+            <div class="price-cards">
+              <!-- Single price card  -->
+              <div class="price-card">
+                <h4 class="price-card__heading u-mb-sm">Free</h4>
+                <h4 class="u-mb-sm">0 <sup>SR</sup></h4>
+                <p class="price-card__text u-mb-sm">Free Plan Forever</p>
+                <p class="price-card__text u-mb-lg">
+                  Easy online tool to build your online restaurant for free.
+                </p>
+                <a href="#" class="price-card__btn btn--secondary">Subscribe</a>
+              </div>
+              <!-- Single price card  -->
+              <div class="price-card">
+                <h4 class="price-card__heading u-mb-sm">Productive Family</h4>
+                <h4 class="u-mb-sm">1000<sup>SR</sup> <small>/month</small></h4>
+                <p class="price-card__text u-mb-sm">Free Plan Forever</p>
+                <p class="price-card__text u-mb-lg">
+                  Easy online tool to build your online restaurant for free.
+                </p>
+                <a href="#" class="price-card__btn btn--secondary">Subscribe</a>
+              </div>
+              <!-- Single price card  -->
+              <div class="price-card">
+                <h4 class="price-card__heading u-mb-sm">Sigle Branch</h4>
+                <h4 class="u-mb-sm">0 <sup>SR</sup></h4>
+                <p class="price-card__text u-mb-sm">Free Plan Forever</p>
+                <p class="price-card__text u-mb-lg">
+                  Easy online tool to build your online restaurant for free.
+                </p>
+                <a href="#" class="price-card__btn btn--secondary">Subscribe</a>
+              </div>
+              <!-- Single price card  -->
+              <div class="price-card">
+                <h4 class="price-card__heading u-mb-sm">Ultimate</h4>
+                <h4 class="u-mb-sm">0 <sup>SR</sup></h4>
+                <p class="price-card__text u-mb-sm">Free Plan Forever</p>
+                <p class="price-card__text u-mb-lg">
+                  Easy online tool to build your online restaurant for free.
+                </p>
+                <a href="#" class="price-card__btn btn--secondary">Subscribe</a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="section-pricing-table u-mb-lg">
+          <div class="row">
+            <h4 class="heading-4 u-text-center u-mb-md">Compare feature</h4>
+            <!-- <table class="price-table">
+              <thead>
+                <tr>
+                  <th></th>
+                  <th>Fee</th>
+                  <th>Productive family</th>
+                  <th>Single Branch</th>
+                  <th>Ultimate</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Monthly price</td>
+                  <td>0. SR</td>
+                  <td>1000. SR</td>
+                  <td>1500. SR</td>
+                  <td>5000. SR</td>
+                </tr>
+                <tr>
+                  <td>Monthly price, Paid annually</td>
+                  <td>0. SR</td>
+                  <td>1000. SR</td>
+                  <td>1500. SR</td>
+                  <td>5000. SR</td>
+                </tr>
+                <tr>
+                  <td>Trnsaction fees</td>
+                  <td>0. SR</td>
+                  <td>0. SR</td>
+                  <td>0. SR</td>
+                  <td>0. SR</td>
+                </tr>
+              </tbody>
+            </table> -->
+            <!-- <div class="single-tr">Sales Channel</div> -->
+            <!-- <table class="price-table">
+              <tbody>
+                <tr>
+                  <td>Online Ordering</td>
+                  <td><img class="price-table__tik-img" src="img/icons/Icon feather-check.svg" alt=""></td>
+                  <td><img class="price-table__tik-img" src="img/icons/Icon feather-check.svg" alt=""></td>
+                  <td><img class="price-table__tik-img" src="img/icons/Icon feather-check.svg" alt=""></td>
+                  <td><img class="price-table__tik-img" src="img/icons/Icon feather-check.svg" alt=""></td>
+               </tr>
+               <tr>
+                 <td>Online Ordering</td>
+                 <td></td>
+                 <td><img class="price-table__tik-img" src="img/icons/Icon feather-check.svg" alt=""></td>
+                 <td><img class="price-table__tik-img" src="img/icons/Icon feather-check.svg" alt=""></td>
+                 <td><img class="price-table__tik-img" src="img/icons/Icon feather-check.svg" alt=""></td>
+              </tr>
+              <tr>
+                <td>Online Ordering</td>
+                <td></td>
+                <td></td>
+                <td><img class="price-table__tik-img" src="img/icons/Icon feather-check.svg" alt=""></td>
+                <td><img class="price-table__tik-img" src="img/icons/Icon feather-check.svg" alt=""></td>
+             </tr>
+             <tr>
+               <td>Online Ordering</td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+            </tr>
+            <tr>
+              <td>Online Ordering</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+           </tr>
+           <tr>
+             <td>Online Ordering</td>
+             <td></td>
+             <td></td>
+             <td></td>
+             <td></td>
+          </tr>
+          
+              </tbody>
+            </table> -->
+            <div class="price-table-container">
+              <table class="price-table">
+                <thead>
+                  <tr>
+                    <th></th>
+                    <th>Fee</th>
+                    <th>Productive family</th>
+                    <th>Single Branch</th>
+                    <th>Ultimate</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Monthly price</td>
+                    <td>0. SR</td>
+                    <td>1000. SR</td>
+                    <td>1500. SR</td>
+                    <td>5000. SR</td>
+                  </tr>
+                  <tr>
+                    <td>Monthly price, Paid annually</td>
+                    <td>0. SR</td>
+                    <td>1000. SR</td>
+                    <td>1500. SR</td>
+                    <td>5000. SR</td>
+                  </tr>
+                  <tr>
+                    <td>Trnsaction fees</td>
+                    <td>0. SR</td>
+                    <td>0. SR</td>
+                    <td>0. SR</td>
+                    <td>0. SR</td>
+                  </tr>
+                  <tr id="single-tr">
+                    <td colspan="5">Sales Channel</td>
+                  </tr>
+                  <tr>
+                    <td>Online Ordering</td>
+                    <td>
+                      <img
+                        class="price-table__tik-img"
+                        src="img/icons/Icon feather-check.svg"
+                        alt=""
+                      />
+                    </td>
+                    <td>
+                      <img
+                        class="price-table__tik-img"
+                        src="img/icons/Icon feather-check.svg"
+                        alt=""
+                      />
+                    </td>
+                    <td>
+                      <img
+                        class="price-table__tik-img"
+                        src="img/icons/Icon feather-check.svg"
+                        alt=""
+                      />
+                    </td>
+                    <td>
+                      <img
+                        class="price-table__tik-img"
+                        src="img/icons/Icon feather-check.svg"
+                        alt=""
+                      />
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Online Ordering</td>
+                    <td></td>
+                    <td>
+                      <img
+                        class="price-table__tik-img"
+                        src="img/icons/Icon feather-check.svg"
+                        alt=""
+                      />
+                    </td>
+                    <td>
+                      <img
+                        class="price-table__tik-img"
+                        src="img/icons/Icon feather-check.svg"
+                        alt=""
+                      />
+                    </td>
+                    <td>
+                      <img
+                        class="price-table__tik-img"
+                        src="img/icons/Icon feather-check.svg"
+                        alt=""
+                      />
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Online Ordering</td>
+                    <td></td>
+                    <td></td>
+                    <td>
+                      <img
+                        class="price-table__tik-img"
+                        src="img/icons/Icon feather-check.svg"
+                        alt=""
+                      />
+                    </td>
+                    <td>
+                      <img
+                        class="price-table__tik-img"
+                        src="img/icons/Icon feather-check.svg"
+                        alt=""
+                      />
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Online Ordering</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>Online Ordering</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>Online Ordering</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td></td>
+                    <td><a href="#" class="btn--secondary">Subscribe</a></td>
+                    <td><a href="#" class="btn--secondary">Subscribe</a></td>
+                    <td><a href="#" class="btn--secondary">Subscribe</a></td>
+                    <td><a href="#" class="btn--secondary">Subscribe</a></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <!-- <div class="price-table__btns">
+              <a href="#" class="btn--secondary">Subscribe</a>
+              <a href="#" class="btn--secondary">Subscribe</a>
+              <a href="#" class="btn--secondary">Subscribe</a>
+              <a href="#" class="btn--secondary">Subscribe</a>
+            </div> -->
+          </div>
+        </section>
+        <section class="section-price-feature u-mb-lg">
+          <div class="row">
+            <div class="price-features">
+              <div class="price-feature">
+                <img
+                  src="img/price/price-feature-1.svg"
+                  class="u-mb-sm price-feature__img"
+                  alt=""
+                />
+                <h4 class="heading-4 u-mb-sm">Support</h4>
+                <p class="price-feature__text u-mb-md">
+                  Our Customer Care team is here to help via phone, live chat,
+                  and email. When you need a hand, our support experts have your
+                  back.
+                </p>
+                <a href="#" class="btn btn--learn price-feature__btn"
+                  >Learn more <span class="rarr">></span></a
+                >
+              </div>
+              <div class="price-feature">
+                <img
+                  src="img/price/price-feature-2.svg"
+                  class="u-mb-sm price-feature__img"
+                  alt=""
+                />
+                <h4 class="heading-4 u-mb-sm">Presales Chat</h4>
+                <p class="price-feature__text u-mb-md">
+                  Need help choosing the right Resappy plan? Our Sales team has
+                  the answers you're looking for.
+                </p>
+                <a href="#" class="btn btn--learn price-feature__btn"
+                  >Learn more <span class="rarr">></span></a
+                >
+              </div>
+              <div class="price-feature">
+                <img
+                  src="img/price/price-feature-3.svg"
+                  class="u-mb-sm price-feature__img"
+                  alt=""
+                />
+                <h4 class="heading-4 u-mb-sm">Professional Services</h4>
+                <p class="price-feature__text u-mb-md">
+                  Our Customer Care team is here to help via phone, live chat,
+                  and email. When you need a hand, our support experts have your
+                  back.
+                </p>
+                <a href="#" class="btn btn--learn price-feature__btn"
+                  >Learn more <span class="rarr">></span></a
+                >
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- FAQ Section  -->
+        <section class="section-faq u-mb-lg">
+          <div class="row">
+            <div class="faqs">
+              <div class="faq faq--1">
+                <p class="faq__ques u-mb-sm">
+                  How is Resappy different from other e-commerce platforms?
+                </p>
+                <p class="faq__ans">
+                  Resappy can be added to your existing website and doesn’t
+                  require you to start over. Plus, Resappy has a free plan, not
+                  a free trial.
+                </p>
+              </div>
+              <div class="faq faq--2">
+                <p class="faq__ques u-mb-sm">
+                  How is Resappy different from other e-commerce platforms?
+                </p>
+                <p class="faq__ans">
+                  Resappy can be added to your existing website and doesn’t
+                  require you to start over. Plus, Resappy has a free plan, not
+                  a free trial.
+                </p>
+              </div>
+              <div class="faq faq--3">
+                <p class="faq__ques u-mb-sm">
+                  How is Resappy different from other e-commerce platforms?
+                </p>
+                <p class="faq__ans">
+                  Resappy can be added to your existing website and doesn’t
+                  require you to start over. Plus, Resappy has a free plan, not
+                  a free trial.
+                </p>
+              </div>
+              <div class="faq faq--4">
+                <p class="faq__ques u-mb-sm">
+                  How is Resappy different from other e-commerce platforms?
+                </p>
+                <p class="faq__ans">
+                  Resappy can be added to your existing website and doesn’t
+                  require you to start over. Plus, Resappy has a free plan, not
+                  a free trial.
+                </p>
+              </div>
+              <div class="faq faq--5">
+                <p class="faq__ques u-mb-sm">
+                  How is Resappy different from other e-commerce platforms?
+                </p>
+                <p class="faq__ans">
+                  Resappy can be added to your existing website and doesn’t
+                  require you to start over. Plus, Resappy has a free plan, not
+                  a free trial.
+                </p>
+              </div>
+              <div class="faq faq--6">
+                <p class="faq__ques u-mb-sm">
+                  How is Resappy different from other e-commerce platforms?
+                </p>
+                <p class="faq__ans">
+                  Resappy can be added to your existing website and doesn’t
+                  require you to start over. Plus, Resappy has a free plan, not
+                  a free trial.
+                </p>
+              </div>
+              <div class="faq faq--7">
+                <p class="faq__ques u-mb-sm">
+                  How is Resappy different from other e-commerce platforms?
+                </p>
+                <p class="faq__ans">
+                  Resappy can be added to your existing website and doesn’t
+                  require you to start over. Plus, Resappy has a free plan, not
+                  a free trial.
+                </p>
+              </div>
+              <div class="faq faq--8">
+                <p class="faq__ques u-mb-sm">
+                  How is Resappy different from other e-commerce platforms?
+                </p>
+                <p class="faq__ans">
+                  Resappy can be added to your existing website and doesn’t
+                  require you to start over. Plus, Resappy has a free plan, not
+                  a free trial.
+                </p>
+              </div>
+              <div class="faq faq--9">
+                <p class="faq__ques u-mb-sm">
+                  How is Resappy different from other e-commerce platforms?
+                </p>
+                <p class="faq__ans">
+                  Resappy can be added to your existing website and doesn’t
+                  require you to start over. Plus, Resappy has a free plan, not
+                  a free trial.
+                </p>
+              </div>
+              <div class="faq faq--10">
+                <p class="faq__ques u-mb-sm">
+                  How is Resappy different from other e-commerce platforms?
+                </p>
+                <p class="faq__ans">
+                  Resappy can be added to your existing website and doesn’t
+                  require you to start over. Plus, Resappy has a free plan, not
+                  a free trial.
+                </p>
+              </div>
+              <div class="faq faq--11">
+                <p class="faq__ques u-mb-sm">
+                  How is Resappy different from other e-commerce platforms?
+                </p>
+                <p class="faq__ans">
+                  Resappy can be added to your existing website and doesn’t
+                  require you to start over. Plus, Resappy has a free plan, not
+                  a free trial.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <!-- Footer  -->
+      <section class="section-cta">
+        <div class="row">
+          <h1>Launch your restaurant in 3, 2, 1...</h1>
+          <a href="#" class="btn btn--primary btn--primary-dark">
+            Get your free account
+          </a>
+        </div>
+      </section>
+      <footer class="footer">
+        <div class="row">
+          <div class="footer__top">
+            <div class="footer__top-left">
+              <img src="img/footer-logo.svg" />
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Accusamus atque cum temporibus ipsum quisquam rem sapiente
+                reprehenderit illo. Voluptatem asperiores, iusto ea eos omnis at
+                vel aliquam unde laboriosam eius.
+              </p>
+            </div>
+            <div class="footer__top-middle">
+              <h4 class="heading-tetra">Solutions by industry</h4>
+              <nav class="footer__main-nav">
+                <ul>
+                  <li><a href="#">Productive families</a></li>
+                  <li><a href="#">Bakeries</a></li>
+                  <li><a href="#">Cafe</a></li>
+                  <li><a href="#">Eestaurant</a></li>
+                </ul>
+              </nav>
+            </div>
+            <div class="footer__top-right">
+              <h4 class="heading-tetra">Resappy partner's program</h4>
+              <nav class="footer__main-nav">
+                <ul>
+                  <li><a href="#">Referral partners program</a></li>
+                  <li><a href="#">Delivery Provider Register</a></li>
+                  <li><a href="#">Food and Bevery Supplier Register</a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+        <div class="footer__bottom">
+          <div class="row">
+            <div class="footer__bottom-left">2021 Resappy</div>
+            <div class="footer__bottom-right">
+              <a href="#">Terms and condition</a>
+              <a href="#">Privacy policy</a>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <div class="modal-email">
+      <div class="modal-email__content">
+        <a href="javascript:void(0)" class="btn--close" onclick="closeModal()">
+          &times;
+        </a>
+        <label class="modal-email__label" for="">Enter your email</label>
+        <input
+          type="text"
+          placeholder="Enter your email address"
+          class="modal-email__input"
+        />
+        <a
+          href="javascript:void(0)"
+          class="btn btn--primary btn--primary-light"
+          onclick="openVerification()"
+        >
+          Submit
+        </a>
+      </div>
+    </div>
+    <div class="modal-verification">
+      <div class="modal-verification__content">
+        <a href="javascript:void(0)" class="btn--close" onclick="closeModal()">
+          &times;
+        </a>
+        <p class="modal-verification__text">
+          Lorem ipsum dolor sit amet consectetur adipisicing.
+        </p>
+        <span class="modal-verification__timer">
+          <span id="minute"></span>
+          :
+          <span id="second"></span>
+        </span>
+        <form action="" class="modal-verification__form">
+          <input type="text" />
+          <input type="text" />
+          <input type="text" />
+          <input type="text" />
+        </form>
+        <a
+          href="javascript:void(0)"
+          class="btn btn--primary btn--primary-light"
+          onclick="closeModal()"
+        >
+          Submit
+        </a>
+        <a
+          href="javascript:void(0)"
+          class="modal-verification__btn"
+          onclick="openModal();closeVerification()"
+        >
+          Edit Email
+        </a>
+      </div>
+    </div>
+
+    <!-- <script src="js/jquery.min-2.2.4.js"></script> -->
+    <script src="js/jquery.min-2.2.4.js"></script>
+    <script src="js/isotop.min.js"></script>
+    <script src="js/blog.js"></script>
+    <script src="js/blog-filter.js"></script>
+  </body>
+</html>

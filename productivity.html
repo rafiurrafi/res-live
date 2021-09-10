@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <title>Resappy - Your favorite restaurant</title>
+  </head>
+  <body>
+    <div class="body-content">
+      <header class="header header--productivity">
+        <nav class="main-nav">
+          <div class="row">
+            <a href="#" class="logo">
+              <img src="img/logo icon.svg" alt="" />
+            </a>
+            <ul class="main-nav__left">
+              <li>
+                <a href="#">Sell</a>
+              </li>
+              <li><a href="#">Market</a></li>
+              <li><a href="#">Manage</a></li>
+              <li><a href="#">عربي</a></li>
+            </ul>
+            <ul class="main-nav__right">
+              <li>
+                <a href="#"><i class="fa fa-search u-color-primary"></i></a>
+              </li>
+              <li class="dropdown">
+                <a href="#">Learn</a>
+                <div class="dropdown__content">
+                  <a class="dropdown__link" href="#">Learn</a>
+                  <p class="dropdown__text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Impedit dicta
+                  </p>
+                  <div class="dropdown__menu">
+                    <nav class="dropdown__menu-left">
+                      <ul>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Help center</a></li>
+                        <li><a href="#">Videos</a></li>
+                        <li><a href="#">Customer Service</a></li>
+                        <li><a href="">Why Sell online</a></li>
+                        <li><a href="">Solutions by industry</a></li>
+                      </ul>
+                    </nav>
+                    <nav class="dropdown__menu-right">
+                      <ul>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Guide</a></li>
+                        <li><a href="#">Pods</a></li>
+                        <li><a href="#">Features</a></li>
+                        <li><a href="#">Demo</a></li>
+                      </ul>
+                    </nav>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <a href="#">Pricing</a>
+              </li>
+              <li>
+                <a href="#">Login</a>
+              </li>
+              <a href="#" class="btn btn--primary u-ml-sm" onclick="openModal()"
+                >Get started for free</a
+              >
+            </ul>
+            <!-- Mobile menu -->
+            <div class="mobile-menu">
+              <a href="javascript:void(0)" class="mobile-menu__link"
+                ><i class="fa fa-search"></i
+              ></a>
+              <a
+                href="javascript:void(0)"
+                onclick="showMobileContent()"
+                class="mobile-menu__link"
+                ><i class="fa fa-bars"></i
+              ></a>
+            </div>
+            <div class="mobile-content">
+              <ul class="mobile-content__nav">
+                <li>
+                  <a href="#">Sell</a>
+                </li>
+                <li><a href="#">Market</a></li>
+                <li><a href="#">Manage</a></li>
+
+                <li class="dropdown">
+                  <a href="#">Learn</a>
+                  <div class="dropdown__content">
+                    <div class="dropdown__context">
+                      <a class="dropdown__link" href="#">Learn</a>
+                      <p class="dropdown__text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Impedit dicta
+                      </p>
+                      <div class="dropdown__menu">
+                        <nav class="dropdown__menu-left">
+                          <ul>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Help center</a></li>
+                            <li><a href="#">Videos</a></li>
+                            <li><a href="#">Customer Service</a></li>
+                            <li><a href="">Why Sell online</a></li>
+                            <li><a href="">Solutions by industry</a></li>
+                          </ul>
+                        </nav>
+                        <nav class="dropdown__menu-right">
+                          <ul>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Guide</a></li>
+                            <li><a href="#">Pods</a></li>
+                            <li><a href="#">Features</a></li>
+                            <li><a href="#">Demo</a></li>
+                          </ul>
+                        </nav>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <a href="#">Pricing</a>
+                </li>
+                <li>
+                  <a href="#">Login</a>
+                </li>
+                <li><a href="#">عربي</a></li>
+                <a href="#" class="btn btn--primary" onclick="openModal()"
+                  >Get started for free</a
+                >
+                <a
+                  href="javascript:void(0)"
+                  class="mobile-content__close"
+                  onclick="closeMobileContent()"
+                  >&times;</a
+                >
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <div class="row">
+          <div class="header__text-box header__text-box--productivity">
+            <h1 class="u-mb-sm">
+              Have you thought about selling online on your own platform?
+            </h1>
+            <p class="u-mb-md">
+              grow your business with the Resappy flexible solution. Sign up
+              below and start managing your online sales immediately!
+            </p>
+            <form action="#" class="form-inline form-inline--header">
+              <input
+                type="text"
+                class="form-inline__input"
+                placeholder="Enter your business email address*"
+              />
+              <a href="#" class="form-inline__btn">Get started</a>
+            </form>
+          </div>
+        </div>
+      </header>
+      <main class="section-productivity-main u-my-lg">
+        <h3 class="heading-title">
+          Simple and powerful food ordering solution to fuel productive online
+          family sales
+        </h3>
+        <section class="section-productivity-feature u-my-md">
+          <div class="row">
+            <div class="productivity-features">
+              <div class="price-feature">
+                <img
+                  src="img/price/price-feature-1.svg"
+                  class="u-mb-sm price-feature__img"
+                  alt=""
+                />
+                <h4 class="heading-4 u-mb-sm">Support</h4>
+                <p class="price-feature__text u-mb-md">
+                  Our Customer Care team is here to help via phone, live chat,
+                  and email. When you need a hand, our support experts have your
+                  back.
+                </p>
+              </div>
+              <div class="price-feature">
+                <img
+                  src="img/price/price-feature-1.svg"
+                  class="u-mb-sm price-feature__img"
+                  alt=""
+                />
+                <h4 class="heading-4 u-mb-sm">Support</h4>
+                <p class="price-feature__text u-mb-md">
+                  Our Customer Care team is here to help via phone, live chat,
+                  and email. When you need a hand, our support experts have your
+                  back.
+                </p>
+              </div>
+              <div class="price-feature">
+                <img
+                  src="img/price/price-feature-1.svg"
+                  class="u-mb-sm price-feature__img"
+                  alt=""
+                />
+                <h4 class="heading-4 u-mb-sm">Support</h4>
+                <p class="price-feature__text u-mb-md">
+                  Our Customer Care team is here to help via phone, live chat,
+                  and email. When you need a hand, our support experts have your
+                  back.
+                </p>
+              </div>
+              <div class="price-feature">
+                <img
+                  src="img/price/price-feature-1.svg"
+                  class="u-mb-sm price-feature__img"
+                  alt=""
+                />
+                <h4 class="heading-4 u-mb-sm">Support</h4>
+                <p class="price-feature__text u-mb-md">
+                  Our Customer Care team is here to help via phone, live chat,
+                  and email. When you need a hand, our support experts have your
+                  back.
+                </p>
+              </div>
+              <div class="price-feature">
+                <img
+                  src="img/price/price-feature-1.svg"
+                  class="u-mb-sm price-feature__img"
+                  alt=""
+                />
+                <h4 class="heading-4 u-mb-sm">Support</h4>
+                <p class="price-feature__text u-mb-md">
+                  Our Customer Care team is here to help via phone, live chat,
+                  and email. When you need a hand, our support experts have your
+                  back.
+                </p>
+              </div>
+              <div class="price-feature">
+                <img
+                  src="img/price/price-feature-1.svg"
+                  class="u-mb-sm price-feature__img"
+                  alt=""
+                />
+                <h4 class="heading-4 u-mb-sm">Support</h4>
+                <p class="price-feature__text u-mb-md">
+                  Our Customer Care team is here to help via phone, live chat,
+                  and email. When you need a hand, our support experts have your
+                  back.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="section-productivity-mockup u-my-lg">
+          <div class="row">
+            <div class="prod-mockup">
+              <h2 class="heading-secondary">
+                What you will need in your online store if you want to sell a
+                yummy homemade
+                <span class="u-color-primary d-block">Food ?!</span>
+              </h2>
+              <div class="prod-mockup__img">
+                <img src="img/icons/productivity-mockup.svg" alt="" />
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="section-complex-slider">
+          <div class="row">
+            <div class="complex-slider">
+              <div class="complex-slider__left">
+                <div class="complex-slider__number-area">
+                  <div class="complex-slider__numbers">
+                    <div class="complex-slider__number">01</div>
+                    <div class="complex-slider__number">02</div>
+                    <div class="complex-slider__number">03</div>
+                    <div class="complex-slider__number">04</div>
+                    <div class="complex-slider__number">05</div>
+                    <div class="complex-slider__number">06</div>
+                  </div>
+                </div>
+                <!-- laptop  -->
+                <div class="complex-slider__img-box">
+                  <div class="complex-slider__images">
+                    <img
+                      src="img/icons/slider/Mask Group 1.svg"
+                      alt=""
+                      class="complex-slider__img"
+                    />
+                    <img
+                      src="img/icons/slider/Mask Group 2.svg"
+                      alt=""
+                      class="complex-slider__img"
+                    />
+                    <img
+                      src="img/icons/slider/Mask Group 3.svg"
+                      alt=""
+                      class="complex-slider__img"
+                    />
+                    <img
+                      src="img/icons/slider/Mask Group 4.svg"
+                      alt=""
+                      class="complex-slider__img"
+                    />
+                    <img
+                      src="img/icons/slider/Mask Group 5.svg"
+                      alt=""
+                      class="complex-slider__img"
+                    />
+                    <img
+                      src="img/icons/slider/Mask Group 6.svg"
+                      alt=""
+                      class="complex-slider__img"
+                    />
+                  </div>
+                </div>
+                <!-- extra Image  -->
+                <img
+                  src="img/icons/slider/mockup-1-5.svg"
+                  class="complex-slider__optional-img"
+                  alt=""
+                />
+              </div>
+              <div class="complex-slider__right">
+                <div class="complex-slider__contents">
+                  <!-- single slider content  -->
+                  <div class="complex-slider__content">
+                    <h4 class="heading-4 u-mb-sm">
+                      Hunger knows no time, no place
+                    </h4>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Consectetur at nulla voluptatum, minus porro temporibus
+                      unde doloremque obcaecati rem eos dolor rerum reiciendis
+                      aspernatur illo vero reprehenderit expedita doloribus
+                      earum.
+                    </p>
+                  </div>
+                  <!-- single slider content  -->
+                  <div class="complex-slider__content">
+                    <h4 class="heading-4 u-mb-sm">
+                      Hunger knows no time, no place
+                    </h4>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Consectetur at nulla voluptatum, minus porro temporibus
+                      unde doloremque obcaecati rem eos dolor rerum reiciendis
+                      aspernatur illo vero reprehenderit expedita doloribus
+                      earum.
+                    </p>
+                  </div>
+                  <!-- single slider content  -->
+                  <div class="complex-slider__content">
+                    <h4 class="heading-4 u-mb-sm">
+                      Hunger knows no time, no place
+                    </h4>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Consectetur at nulla voluptatum, minus porro temporibus
+                      unde doloremque obcaecati rem eos dolor rerum reiciendis
+                      aspernatur illo vero reprehenderit expedita doloribus
+                      earum.
+                    </p>
+                  </div>
+                  <!-- single slider content  -->
+                  <div class="complex-slider__content">
+                    <h4 class="heading-4 u-mb-sm">
+                      Hunger knows no time, no place
+                    </h4>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Consectetur at nulla voluptatum, minus porro temporibus
+                      unde doloremque obcaecati rem eos dolor rerum reiciendis
+                      aspernatur illo vero reprehenderit expedita doloribus
+                      earum.
+                    </p>
+                  </div>
+                  <!-- single slider content  -->
+                  <div class="complex-slider__content">
+                    <h4 class="heading-4 u-mb-sm">
+                      Hunger knows no time, no place
+                    </h4>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Consectetur at nulla voluptatum, minus porro temporibus
+                      unde doloremque obcaecati rem eos dolor rerum reiciendis
+                      aspernatur illo vero reprehenderit expedita doloribus
+                      earum.
+                    </p>
+                  </div>
+                  <!-- single slider content  -->
+                  <div class="complex-slider__content">
+                    <h4 class="heading-4 u-mb-sm">
+                      Hunger knows no time, no place
+                    </h4>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Consectetur at nulla voluptatum, minus porro temporibus
+                      unde doloremque obcaecati rem eos dolor rerum reiciendis
+                      aspernatur illo vero reprehenderit expedita doloribus
+                      earum.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Angle left right section  -->
+            <div class="complex-slider__pagination">
+              <a href="javascript:void(0)" onclick="prevSlide()" id="cs-prev"
+                ><img src="img/icons/slider/Path 26.svg" alt=""
+              /></a>
+              <a href="javascript:void(0)" onclick="nextSlide()" id="cs-next"
+                ><img src="img/icons/slider/Path 53.svg" alt=""
+              /></a>
+            </div>
+            <!-- slider control section  -->
+            <div class="complex-slider__controls">
+              <div>
+                <a
+                  href="javascript:void(0)"
+                  onclick="goSlider(1)"
+                  class="complex-slider__control"
+                ></a>
+              </div>
+              <div>
+                <a
+                  href="javascript:void(0)"
+                  onclick="goSlider(2)"
+                  class="complex-slider__control"
+                ></a>
+              </div>
+              <div>
+                <a
+                  href="javascript:void(0)"
+                  onclick="goSlider(3)"
+                  class="complex-slider__control"
+                ></a>
+              </div>
+              <div>
+                <a
+                  href="javascript:void(0)"
+                  onclick="goSlider(4)"
+                  class="complex-slider__control"
+                ></a>
+              </div>
+              <div>
+                <a
+                  href="javascript:void(0)"
+                  onclick="goSlider(5)"
+                  class="complex-slider__control"
+                ></a>
+              </div>
+              <div>
+                <a
+                  href="javascript:void(0)"
+                  onclick="goSlider(6)"
+                  class="complex-slider__control"
+                ></a>
+              </div>
+
+              <a
+                href="javascript:void(0)"
+                class="complex-slider__control complex-slider__control--clone"
+              ></a>
+            </div>
+          </div>
+        </section>
+        <section class="section-productivity-account u-text-center">
+          <h2 class="heading-secondary heading-secondary--small u-mb-sm">
+            Anyone, anywhere, can start a business
+          </h2>
+          <p class="u-mb-md">
+            Start your business journey with
+            <span class="u-color-primary">Resappy</span>
+          </p>
+          <a href="#" class="btn btn--primary">Get your free account</a>
+        </section>
+        <!-- Faq section  -->
+        <!-- FAQ Section  -->
+        <section class="section-faq u-mb-lg">
+          <div class="row">
+            <div class="faqs">
+              <div class="faq faq--1">
+                <p class="faq__ques u-mb-sm">
+                  How is Resappy different from other e-commerce platforms?
+                </p>
+                <p class="faq__ans">
+                  Resappy can be added to your existing website and doesn’t
+                  require you to start over. Plus, Resappy has a free plan, not
+                  a free trial.
+                </p>
+              </div>
+              <div class="faq faq--2">
+                <p class="faq__ques u-mb-sm">
+                  How is Resappy different from other e-commerce platforms?
+                </p>
+                <p class="faq__ans">
+                  Resappy can be added to your existing website and doesn’t
+                  require you to start over. Plus, Resappy has a free plan, not
+                  a free trial.
+                </p>
+              </div>
+              <div class="faq faq--3">
+                <p class="faq__ques u-mb-sm">
+                  How is Resappy different from other e-commerce platforms?
+                </p>
+                <p class="faq__ans">
+                  Resappy can be added to your existing website and doesn’t
+                  require you to start over. Plus, Resappy has a free plan, not
+                  a free trial.
+                </p>
+              </div>
+              <div class="faq faq--4">
+                <p class="faq__ques u-mb-sm">
+                  How is Resappy different from other e-commerce platforms?
+                </p>
+                <p class="faq__ans">
+                  Resappy can be added to your existing website and doesn’t
+                  require you to start over. Plus, Resappy has a free plan, not
+                  a free trial.
+                </p>
+              </div>
+              <div class="faq faq--5">
+                <p class="faq__ques u-mb-sm">
+                  How is Resappy different from other e-commerce platforms?
+                </p>
+                <p class="faq__ans">
+                  Resappy can be added to your existing website and doesn’t
+                  require you to start over. Plus, Resappy has a free plan, not
+                  a free trial.
+                </p>
+              </div>
+              <div class="faq faq--6">
+                <p class="faq__ques u-mb-sm">
+                  How is Resappy different from other e-commerce platforms?
+                </p>
+                <p class="faq__ans">
+                  Resappy can be added to your existing website and doesn’t
+                  require you to start over. Plus, Resappy has a free plan, not
+                  a free trial.
+                </p>
+              </div>
+              <div class="faq faq--7">
+                <p class="faq__ques u-mb-sm">
+                  How is Resappy different from other e-commerce platforms?
+                </p>
+                <p class="faq__ans">
+                  Resappy can be added to your existing website and doesn’t
+                  require you to start over. Plus, Resappy has a free plan, not
+                  a free trial.
+                </p>
+              </div>
+              <div class="faq faq--8">
+                <p class="faq__ques u-mb-sm">
+                  How is Resappy different from other e-commerce platforms?
+                </p>
+                <p class="faq__ans">
+                  Resappy can be added to your existing website and doesn’t
+                  require you to start over. Plus, Resappy has a free plan, not
+                  a free trial.
+                </p>
+              </div>
+              <div class="faq faq--9">
+                <p class="faq__ques u-mb-sm">
+                  How is Resappy different from other e-commerce platforms?
+                </p>
+                <p class="faq__ans">
+                  Resappy can be added to your existing website and doesn’t
+                  require you to start over. Plus, Resappy has a free plan, not
+                  a free trial.
+                </p>
+              </div>
+              <div class="faq faq--10">
+                <p class="faq__ques u-mb-sm">
+                  How is Resappy different from other e-commerce platforms?
+                </p>
+                <p class="faq__ans">
+                  Resappy can be added to your existing website and doesn’t
+                  require you to start over. Plus, Resappy has a free plan, not
+                  a free trial.
+                </p>
+              </div>
+              <div class="faq faq--11">
+                <p class="faq__ques u-mb-sm">
+                  How is Resappy different from other e-commerce platforms?
+                </p>
+                <p class="faq__ans">
+                  Resappy can be added to your existing website and doesn’t
+                  require you to start over. Plus, Resappy has a free plan, not
+                  a free trial.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Faq end  -->
+      </main>
+      <section class="section-cta">
+        <div class="row">
+          <h1>Launch your restaurant in 3, 2, 1...</h1>
+          <a href="#" class="btn btn--primary btn--primary-dark"
+            >Get your free account</a
+          >
+        </div>
+      </section>
+      <footer class="footer">
+        <div class="row">
+          <div class="footer__top">
+            <div class="footer__top-left">
+              <img src="img/footer-logo.svg" />
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Accusamus atque cum temporibus ipsum quisquam rem sapiente
+                reprehenderit illo. Voluptatem asperiores, iusto ea eos omnis at
+                vel aliquam unde laboriosam eius.
+              </p>
+            </div>
+            <div class="footer__top-middle">
+              <h4 class="heading-tetra">Solutions by industry</h4>
+              <nav class="footer__main-nav">
+                <ul>
+                  <li><a href="#">Productive families</a></li>
+                  <li><a href="#">Bakeries</a></li>
+                  <li><a href="#">Cafe</a></li>
+                  <li><a href="#">Eestaurant</a></li>
+                </ul>
+              </nav>
+            </div>
+            <div class="footer__top-right">
+              <h4 class="heading-tetra">Resappy partner's program</h4>
+              <nav class="footer__main-nav">
+                <ul>
+                  <li><a href="#">Referral partners program</a></li>
+                  <li><a href="#">Delivery Provider Register</a></li>
+                  <li><a href="#">Food and Bevery Supplier Register</a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+        <div class="footer__bottom">
+          <div class="row">
+            <div class="footer__bottom-left">2021 Resappy</div>
+            <div class="footer__bottom-right">
+              <a href="#">Terms and condition</a>
+              <a href="#">Privacy policy</a>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <div class="modal-email">
+      <div class="modal-email__content">
+        <a href="javascript:void(0)" class="btn--close" onclick="closeModal()"
+          >&times;</a
+        >
+        <label class="modal-email__label" for="">Enter your email</label>
+        <input
+          type="text"
+          placeholder="Enter your email address"
+          class="modal-email__input"
+        />
+        <a
+          href="javascript:void(0)"
+          class="btn btn--primary btn--primary-light"
+          onclick="openVerification()"
+          >Submit</a
+        >
+      </div>
+    </div>
+    <div class="modal-verification">
+      <div class="modal-verification__content">
+        <a href="javascript:void(0)" class="btn--close" onclick="closeModal()"
+          >&times;</a
+        >
+        <p class="modal-verification__text">
+          Lorem ipsum dolor sit amet consectetur adipisicing.
+        </p>
+        <span class="modal-verification__timer"
+          ><span id="minute"></span> : <span id="second"></span
+        ></span>
+        <form action="" class="modal-verification__form">
+          <input type="text" />
+          <input type="text" />
+          <input type="text" />
+          <input type="text" />
+        </form>
+        <a
+          href="javascript:void(0)"
+          class="btn btn--primary btn--primary-light"
+          onclick="closeModal()"
+          >Submit</a
+        >
+        <a
+          href="javascript:void(0)"
+          class="modal-verification__btn"
+          onclick="openModal();closeVerification()"
+          >Edit Email</a
+        >
+      </div>
+    </div>
+
+    <!-- <script src="js/jquery.min-2.2.4.js"></script> -->
+    <script src="js/jquery.min-2.2.4.js"></script>
+    <script src="js/jquery.waypoints.js"></script>
+    <!-- <script src="js/isotop.min.js"></script> -->
+    <script src="js/complex-slider.js"></script>
+    <script src="js/modal.js"></script>
+  </body>
+</html>

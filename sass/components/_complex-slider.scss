@@ -1,0 +1,186 @@
+.section-complex-slider {
+  position: relative;
+  margin-bottom: 30rem;
+  @include respond(tab-port) {
+    min-height: 30rem;
+  }
+  .row {
+    @include respond(tab-port) {
+      min-height: 25rem;
+    }
+    @include respond(phone) {
+      min-height: 32rem;
+    }
+  }
+}
+.complex-slider {
+  display: flex;
+  position: relative;
+  @include respond(tab-port) {
+    display: block;
+  }
+  &__left {
+    flex: 0 0 60%;
+    @include respond(tab-port) {
+      display: none;
+    }
+  }
+  &__number-area {
+    position: relative;
+    height: 3rem;
+    font-size: 30rem;
+    z-index: -10;
+  }
+  &__numbers {
+    opacity: 0.8;
+  }
+  &__number {
+    position: absolute;
+    top: -100%;
+    left: -10%;
+
+    &-clone--1 {
+      // color: $color-primary;
+      animation-name: moveToRightBottom;
+      animation-duration: 0.7s;
+      font-weight: 700;
+      animation-delay: 0.1s;
+    }
+    &-clone--2 {
+      // color: $color-secondary;
+      animation-name: moveToBottom;
+      animation-duration: 0.7s;
+      font-weight: 700;
+      animation-delay: 0.1s;
+    }
+  }
+  // image
+  &__img-box {
+    background-image: url("../../img/icons/slider/plane-laptop-screen.svg");
+    background-size: cover;
+    background-position: center;
+
+    width: 100%;
+    position: relative;
+    margin-top: 18%;
+    height: 39rem;
+    overflow: hidden;
+  }
+  &__images {
+    width: 74.2%;
+    height: 228rem;
+    position: absolute;
+    top: 6.5%;
+    left: 13.5%;
+    transition: transform 0.4s ease-in-out;
+    z-index: -1;
+  }
+  &__img {
+    position: relative;
+    height: 31.3rem;
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 5rem;
+  }
+  &__optional-img {
+    display: inline-block;
+    width: 50rem;
+    position: absolute;
+    bottom: -40%;
+    left: -10%;
+    transition: opacity 0.5s;
+  }
+  &__controls {
+    position: absolute;
+    bottom: -15%;
+    left: 35%;
+    @include respond(tab-port) {
+      left: 25%;
+    }
+    @include respond(phone) {
+      left: 3.5%;
+    }
+    div {
+      position: relative;
+      display: inline-block;
+      transition: transform 0.4s ease-in-out;
+      &:not(:first-child) {
+        margin-left: 3rem;
+      }
+    }
+  }
+  &__control {
+    display: inline-block;
+    height: 2rem;
+    width: 2rem;
+    background-color: rgb(246, 92, 92);
+    border-radius: 50%;
+    &.active {
+      background-color: $color-primary;
+    }
+
+    &--clone {
+      position: absolute;
+      top: 3px;
+      left: 0;
+      display: inline-block;
+      background-color: $color-primary !important;
+      transition: transform 0.4s ease-in-out;
+    }
+  }
+  &__pagination {
+    position: absolute;
+    right: 3rem;
+    bottom: -30%;
+    @include respond(phone) {
+      right: 2rem;
+      bottom: -18%;
+    }
+
+    #cs-prev {
+      margin-right: 5rem;
+      transition: opacity 0.5s;
+      @include respond(phone) {
+        margin-right: 3rem;
+      }
+    }
+    #cs-prev,
+    #cs-next {
+      display: inline-block;
+      transition: opacity 0.5s, transform 0.5s;
+      img {
+        display: inline-block;
+        height: 8rem;
+        @include respond(phone) {
+          height: 4rem;
+        }
+      }
+    }
+    .cs-next-end {
+      display: inline-block;
+
+      transform: rotateY(180deg);
+    }
+  }
+  &__right {
+    flex: 1;
+    padding-left: 1rem;
+  }
+  &__contents {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  &__content {
+    transition: opacity 0.3s;
+    position: absolute;
+    top: 55%;
+    left: 0;
+    transform: translateY(-50%);
+    @include respond(tab-port) {
+      transform: translateY(0);
+      margin-bottom: 5rem;
+      height: 100%;
+    }
+  }
+}
